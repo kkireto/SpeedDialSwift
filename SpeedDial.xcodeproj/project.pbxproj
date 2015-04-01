@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		603D00EC1ACAC4230024234E /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D00DB1ACAC4230024234E /* Icon-40.png */; };
+		603D00ED1ACAC4230024234E /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D00DC1ACAC4230024234E /* Icon-40@2x.png */; };
+		603D00EE1ACAC4230024234E /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D00DD1ACAC4230024234E /* Icon-40@3x.png */; };
+		603D00EF1ACAC4230024234E /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D00DE1ACAC4230024234E /* Icon-60@2x.png */; };
+		603D00F01ACAC4230024234E /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D00DF1ACAC4230024234E /* Icon-60@3x.png */; };
+		603D00F11ACAC4230024234E /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D00E01ACAC4230024234E /* Icon-Small.png */; };
+		603D00F21ACAC4230024234E /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D00E11ACAC4230024234E /* Icon-Small@2x.png */; };
+		603D00F31ACAC4230024234E /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D00E21ACAC4230024234E /* Icon-Small@3x.png */; };
+		603D00F41ACAC4230024234E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D00E31ACAC4230024234E /* Icon.png */; };
+		603D00F51ACAC4230024234E /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D00E41ACAC4230024234E /* Icon@2x.png */; };
+		603D00F61ACAC4230024234E /* Icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D00E51ACAC4230024234E /* Icon@3x.png */; };
+		603D00F71ACAC4230024234E /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D00E61ACAC4230024234E /* iTunesArtwork.png */; };
+		603D00F81ACAC4230024234E /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D00E71ACAC4230024234E /* iTunesArtwork@2x.png */; };
+		603D00F91ACAC4230024234E /* ExtIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D00E91ACAC4230024234E /* ExtIcon.png */; };
+		603D00FA1ACAC4230024234E /* ExtIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D00EA1ACAC4230024234E /* ExtIcon@2x.png */; };
+		603D00FB1ACAC4230024234E /* ExtIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D00EB1ACAC4230024234E /* ExtIcon@3x.png */; };
+		603D00FC1ACAC5F40024234E /* ExtIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D00E91ACAC4230024234E /* ExtIcon.png */; };
+		603D00FD1ACAC5F40024234E /* ExtIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D00EA1ACAC4230024234E /* ExtIcon@2x.png */; };
+		603D00FE1ACAC5F40024234E /* ExtIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D00EB1ACAC4230024234E /* ExtIcon@3x.png */; };
+		603D00FF1ACAC5F90024234E /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D00DB1ACAC4230024234E /* Icon-40.png */; };
+		603D01001ACAC5F90024234E /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D00DC1ACAC4230024234E /* Icon-40@2x.png */; };
+		603D01011ACAC5F90024234E /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D00DD1ACAC4230024234E /* Icon-40@3x.png */; };
+		603D01021ACAC5F90024234E /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D00DE1ACAC4230024234E /* Icon-60@2x.png */; };
+		603D01031ACAC5F90024234E /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D00DF1ACAC4230024234E /* Icon-60@3x.png */; };
+		603D01041ACAC5F90024234E /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D00E01ACAC4230024234E /* Icon-Small.png */; };
+		603D01051ACAC5F90024234E /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D00E11ACAC4230024234E /* Icon-Small@2x.png */; };
+		603D01061ACAC5F90024234E /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D00E21ACAC4230024234E /* Icon-Small@3x.png */; };
+		603D01071ACAC5F90024234E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D00E31ACAC4230024234E /* Icon.png */; };
+		603D01081ACAC5F90024234E /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D00E41ACAC4230024234E /* Icon@2x.png */; };
+		603D01091ACAC5F90024234E /* Icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D00E51ACAC4230024234E /* Icon@3x.png */; };
+		603D010A1ACAC5F90024234E /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D00E61ACAC4230024234E /* iTunesArtwork.png */; };
+		603D010B1ACAC5F90024234E /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D00E71ACAC4230024234E /* iTunesArtwork@2x.png */; };
+		603D01191ACAD6780024234E /* numBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D010D1ACAD6780024234E /* numBg.png */; };
+		603D011A1ACAD6780024234E /* numBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D010E1ACAD6780024234E /* numBg@2x.png */; };
+		603D011B1ACAD6780024234E /* numBg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D010F1ACAD6780024234E /* numBg@3x.png */; };
+		603D011C1ACAD6780024234E /* numBgHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D01101ACAD6780024234E /* numBgHighlighted.png */; };
+		603D011D1ACAD6780024234E /* numBgHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D01111ACAD6780024234E /* numBgHighlighted@2x.png */; };
+		603D011E1ACAD6780024234E /* numBgHighlighted@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D01121ACAD6780024234E /* numBgHighlighted@3x.png */; };
+		603D011F1ACAD6780024234E /* phoneIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D01131ACAD6780024234E /* phoneIcon.png */; };
+		603D01201ACAD6780024234E /* phoneIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D01141ACAD6780024234E /* phoneIcon@2x.png */; };
+		603D01211ACAD6780024234E /* phoneIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D01151ACAD6780024234E /* phoneIcon@3x.png */; };
+		603D01221ACAD6780024234E /* smsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D01161ACAD6780024234E /* smsIcon.png */; };
+		603D01231ACAD6780024234E /* smsIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D01171ACAD6780024234E /* smsIcon@2x.png */; };
+		603D01241ACAD6780024234E /* smsIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D01181ACAD6780024234E /* smsIcon@3x.png */; };
+		603D01251ACAD6800024234E /* numBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D010D1ACAD6780024234E /* numBg.png */; };
+		603D01261ACAD6800024234E /* numBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D010E1ACAD6780024234E /* numBg@2x.png */; };
+		603D01271ACAD6800024234E /* numBg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D010F1ACAD6780024234E /* numBg@3x.png */; };
+		603D01281ACAD6800024234E /* numBgHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D01101ACAD6780024234E /* numBgHighlighted.png */; };
+		603D01291ACAD6800024234E /* numBgHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D01111ACAD6780024234E /* numBgHighlighted@2x.png */; };
+		603D012A1ACAD6800024234E /* numBgHighlighted@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D01121ACAD6780024234E /* numBgHighlighted@3x.png */; };
+		603D012B1ACAD6800024234E /* phoneIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D01131ACAD6780024234E /* phoneIcon.png */; };
+		603D012C1ACAD6800024234E /* phoneIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D01141ACAD6780024234E /* phoneIcon@2x.png */; };
+		603D012D1ACAD6800024234E /* phoneIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D01151ACAD6780024234E /* phoneIcon@3x.png */; };
+		603D012E1ACAD6800024234E /* smsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D01161ACAD6780024234E /* smsIcon.png */; };
+		603D012F1ACAD6800024234E /* smsIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D01171ACAD6780024234E /* smsIcon@2x.png */; };
+		603D01301ACAD6800024234E /* smsIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D01181ACAD6780024234E /* smsIcon@3x.png */; };
+		603D01341ACADB220024234E /* deleteIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D01311ACADB220024234E /* deleteIcon.png */; };
+		603D01351ACADB220024234E /* deleteIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D01321ACADB220024234E /* deleteIcon@2x.png */; };
+		603D01361ACADB220024234E /* deleteIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D01331ACADB220024234E /* deleteIcon@3x.png */; };
+		603D01371ACADBAD0024234E /* deleteIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D01311ACADB220024234E /* deleteIcon.png */; };
+		603D01381ACADBAD0024234E /* deleteIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D01321ACADB220024234E /* deleteIcon@2x.png */; };
+		603D01391ACADBAD0024234E /* deleteIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603D01331ACADB220024234E /* deleteIcon@3x.png */; };
+		60818FA41AC5A4E400728C90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60818FA31AC5A4E400728C90 /* AppDelegate.swift */; };
+		60818FA61AC5A4E400728C90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60818FA51AC5A4E400728C90 /* ViewController.swift */; };
+		60818FA91AC5A4E400728C90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60818FA71AC5A4E400728C90 /* Main.storyboard */; };
+		60818FAB1AC5A4E400728C90 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60818FAA1AC5A4E400728C90 /* Images.xcassets */; };
+		60818FAE1AC5A4E400728C90 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60818FAC1AC5A4E400728C90 /* LaunchScreen.xib */; };
+		60818FBA1AC5A4E400728C90 /* SpeedDialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60818FB91AC5A4E400728C90 /* SpeedDialTests.swift */; };
+		60818FCA1AC5A55C00728C90 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60818FC91AC5A55C00728C90 /* NotificationCenter.framework */; };
+		60818FCF1AC5A55C00728C90 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60818FCE1AC5A55C00728C90 /* TodayViewController.swift */; };
+		60818FD11AC5A55C00728C90 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60818FD01AC5A55C00728C90 /* MainInterface.storyboard */; };
+		60818FD41AC5A55C00728C90 /* SpeedDialer.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 60818FC71AC5A55C00728C90 /* SpeedDialer.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60818FB41AC5A4E400728C90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60818F961AC5A4E400728C90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60818F9D1AC5A4E400728C90;
+			remoteInfo = SpeedDial;
+		};
+		60818FD21AC5A55C00728C90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60818F961AC5A4E400728C90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60818FC61AC5A55C00728C90;
+			remoteInfo = SpeedDialer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		60818FD81AC5A55C00728C90 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				60818FD41AC5A55C00728C90 /* SpeedDialer.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		603D00DB1ACAC4230024234E /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		603D00DC1ACAC4230024234E /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		603D00DD1ACAC4230024234E /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@3x.png"; sourceTree = "<group>"; };
+		603D00DE1ACAC4230024234E /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		603D00DF1ACAC4230024234E /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		603D00E01ACAC4230024234E /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		603D00E11ACAC4230024234E /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		603D00E21ACAC4230024234E /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		603D00E31ACAC4230024234E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		603D00E41ACAC4230024234E /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		603D00E51ACAC4230024234E /* Icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@3x.png"; sourceTree = "<group>"; };
+		603D00E61ACAC4230024234E /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		603D00E71ACAC4230024234E /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		603D00E91ACAC4230024234E /* ExtIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ExtIcon.png; sourceTree = "<group>"; };
+		603D00EA1ACAC4230024234E /* ExtIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ExtIcon@2x.png"; sourceTree = "<group>"; };
+		603D00EB1ACAC4230024234E /* ExtIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ExtIcon@3x.png"; sourceTree = "<group>"; };
+		603D010D1ACAD6780024234E /* numBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = numBg.png; sourceTree = "<group>"; };
+		603D010E1ACAD6780024234E /* numBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numBg@2x.png"; sourceTree = "<group>"; };
+		603D010F1ACAD6780024234E /* numBg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numBg@3x.png"; sourceTree = "<group>"; };
+		603D01101ACAD6780024234E /* numBgHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = numBgHighlighted.png; sourceTree = "<group>"; };
+		603D01111ACAD6780024234E /* numBgHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numBgHighlighted@2x.png"; sourceTree = "<group>"; };
+		603D01121ACAD6780024234E /* numBgHighlighted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numBgHighlighted@3x.png"; sourceTree = "<group>"; };
+		603D01131ACAD6780024234E /* phoneIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phoneIcon.png; sourceTree = "<group>"; };
+		603D01141ACAD6780024234E /* phoneIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phoneIcon@2x.png"; sourceTree = "<group>"; };
+		603D01151ACAD6780024234E /* phoneIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phoneIcon@3x.png"; sourceTree = "<group>"; };
+		603D01161ACAD6780024234E /* smsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smsIcon.png; sourceTree = "<group>"; };
+		603D01171ACAD6780024234E /* smsIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smsIcon@2x.png"; sourceTree = "<group>"; };
+		603D01181ACAD6780024234E /* smsIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smsIcon@3x.png"; sourceTree = "<group>"; };
+		603D01311ACADB220024234E /* deleteIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deleteIcon.png; sourceTree = "<group>"; };
+		603D01321ACADB220024234E /* deleteIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deleteIcon@2x.png"; sourceTree = "<group>"; };
+		603D01331ACADB220024234E /* deleteIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deleteIcon@3x.png"; sourceTree = "<group>"; };
+		60818F9E1AC5A4E400728C90 /* SpeedDial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedDial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60818FA21AC5A4E400728C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60818FA31AC5A4E400728C90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60818FA51AC5A4E400728C90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		60818FA81AC5A4E400728C90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60818FAA1AC5A4E400728C90 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		60818FAD1AC5A4E400728C90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		60818FB31AC5A4E400728C90 /* SpeedDialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedDialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60818FB81AC5A4E400728C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60818FB91AC5A4E400728C90 /* SpeedDialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedDialTests.swift; sourceTree = "<group>"; };
+		60818FC71AC5A55C00728C90 /* SpeedDialer.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SpeedDialer.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		60818FC91AC5A55C00728C90 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		60818FCD1AC5A55C00728C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60818FCE1AC5A55C00728C90 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		60818FD01AC5A55C00728C90 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60818F9B1AC5A4E400728C90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60818FB01AC5A4E400728C90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60818FC41AC5A55C00728C90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60818FCA1AC5A55C00728C90 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		603D00DA1ACAC4230024234E /* AppIcons */ = {
+			isa = PBXGroup;
+			children = (
+				603D00DB1ACAC4230024234E /* Icon-40.png */,
+				603D00DC1ACAC4230024234E /* Icon-40@2x.png */,
+				603D00DD1ACAC4230024234E /* Icon-40@3x.png */,
+				603D00DE1ACAC4230024234E /* Icon-60@2x.png */,
+				603D00DF1ACAC4230024234E /* Icon-60@3x.png */,
+				603D00E01ACAC4230024234E /* Icon-Small.png */,
+				603D00E11ACAC4230024234E /* Icon-Small@2x.png */,
+				603D00E21ACAC4230024234E /* Icon-Small@3x.png */,
+				603D00E31ACAC4230024234E /* Icon.png */,
+				603D00E41ACAC4230024234E /* Icon@2x.png */,
+				603D00E51ACAC4230024234E /* Icon@3x.png */,
+				603D00E61ACAC4230024234E /* iTunesArtwork.png */,
+				603D00E71ACAC4230024234E /* iTunesArtwork@2x.png */,
+			);
+			path = AppIcons;
+			sourceTree = "<group>";
+		};
+		603D00E81ACAC4230024234E /* ExtIcon */ = {
+			isa = PBXGroup;
+			children = (
+				603D00E91ACAC4230024234E /* ExtIcon.png */,
+				603D00EA1ACAC4230024234E /* ExtIcon@2x.png */,
+				603D00EB1ACAC4230024234E /* ExtIcon@3x.png */,
+			);
+			path = ExtIcon;
+			sourceTree = "<group>";
+		};
+		603D010C1ACAD6780024234E /* Dialer */ = {
+			isa = PBXGroup;
+			children = (
+				603D01311ACADB220024234E /* deleteIcon.png */,
+				603D01321ACADB220024234E /* deleteIcon@2x.png */,
+				603D01331ACADB220024234E /* deleteIcon@3x.png */,
+				603D010D1ACAD6780024234E /* numBg.png */,
+				603D010E1ACAD6780024234E /* numBg@2x.png */,
+				603D010F1ACAD6780024234E /* numBg@3x.png */,
+				603D01101ACAD6780024234E /* numBgHighlighted.png */,
+				603D01111ACAD6780024234E /* numBgHighlighted@2x.png */,
+				603D01121ACAD6780024234E /* numBgHighlighted@3x.png */,
+				603D01131ACAD6780024234E /* phoneIcon.png */,
+				603D01141ACAD6780024234E /* phoneIcon@2x.png */,
+				603D01151ACAD6780024234E /* phoneIcon@3x.png */,
+				603D01161ACAD6780024234E /* smsIcon.png */,
+				603D01171ACAD6780024234E /* smsIcon@2x.png */,
+				603D01181ACAD6780024234E /* smsIcon@3x.png */,
+			);
+			path = Dialer;
+			sourceTree = "<group>";
+		};
+		60818F951AC5A4E400728C90 = {
+			isa = PBXGroup;
+			children = (
+				60818FA01AC5A4E400728C90 /* SpeedDial */,
+				60818FB61AC5A4E400728C90 /* SpeedDialTests */,
+				60818FCB1AC5A55C00728C90 /* SpeedDialer */,
+				60F70F7C1AC5A84900B1EB6B /* Resources */,
+				60818FC81AC5A55C00728C90 /* Frameworks */,
+				60818F9F1AC5A4E400728C90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60818F9F1AC5A4E400728C90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60818F9E1AC5A4E400728C90 /* SpeedDial.app */,
+				60818FB31AC5A4E400728C90 /* SpeedDialTests.xctest */,
+				60818FC71AC5A55C00728C90 /* SpeedDialer.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60818FA01AC5A4E400728C90 /* SpeedDial */ = {
+			isa = PBXGroup;
+			children = (
+				60818FA31AC5A4E400728C90 /* AppDelegate.swift */,
+				60818FA51AC5A4E400728C90 /* ViewController.swift */,
+				60818FA71AC5A4E400728C90 /* Main.storyboard */,
+				60818FAA1AC5A4E400728C90 /* Images.xcassets */,
+				60818FAC1AC5A4E400728C90 /* LaunchScreen.xib */,
+				60818FA11AC5A4E400728C90 /* Supporting Files */,
+			);
+			path = SpeedDial;
+			sourceTree = "<group>";
+		};
+		60818FA11AC5A4E400728C90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60818FA21AC5A4E400728C90 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60818FB61AC5A4E400728C90 /* SpeedDialTests */ = {
+			isa = PBXGroup;
+			children = (
+				60818FB91AC5A4E400728C90 /* SpeedDialTests.swift */,
+				60818FB71AC5A4E400728C90 /* Supporting Files */,
+			);
+			path = SpeedDialTests;
+			sourceTree = "<group>";
+		};
+		60818FB71AC5A4E400728C90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60818FB81AC5A4E400728C90 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60818FC81AC5A55C00728C90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60818FC91AC5A55C00728C90 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60818FCB1AC5A55C00728C90 /* SpeedDialer */ = {
+			isa = PBXGroup;
+			children = (
+				60818FCE1AC5A55C00728C90 /* TodayViewController.swift */,
+				60818FD01AC5A55C00728C90 /* MainInterface.storyboard */,
+				60818FCC1AC5A55C00728C90 /* Supporting Files */,
+			);
+			path = SpeedDialer;
+			sourceTree = "<group>";
+		};
+		60818FCC1AC5A55C00728C90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60818FCD1AC5A55C00728C90 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60F70F7C1AC5A84900B1EB6B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				603D010C1ACAD6780024234E /* Dialer */,
+				603D00DA1ACAC4230024234E /* AppIcons */,
+				603D00E81ACAC4230024234E /* ExtIcon */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60818F9D1AC5A4E400728C90 /* SpeedDial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60818FBD1AC5A4E500728C90 /* Build configuration list for PBXNativeTarget "SpeedDial" */;
+			buildPhases = (
+				60818F9A1AC5A4E400728C90 /* Sources */,
+				60818F9B1AC5A4E400728C90 /* Frameworks */,
+				60818F9C1AC5A4E400728C90 /* Resources */,
+				60818FD81AC5A55C00728C90 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60818FD31AC5A55C00728C90 /* PBXTargetDependency */,
+			);
+			name = SpeedDial;
+			productName = SpeedDial;
+			productReference = 60818F9E1AC5A4E400728C90 /* SpeedDial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60818FB21AC5A4E400728C90 /* SpeedDialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60818FC01AC5A4E500728C90 /* Build configuration list for PBXNativeTarget "SpeedDialTests" */;
+			buildPhases = (
+				60818FAF1AC5A4E400728C90 /* Sources */,
+				60818FB01AC5A4E400728C90 /* Frameworks */,
+				60818FB11AC5A4E400728C90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60818FB51AC5A4E400728C90 /* PBXTargetDependency */,
+			);
+			name = SpeedDialTests;
+			productName = SpeedDialTests;
+			productReference = 60818FB31AC5A4E400728C90 /* SpeedDialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60818FC61AC5A55C00728C90 /* SpeedDialer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60818FD51AC5A55C00728C90 /* Build configuration list for PBXNativeTarget "SpeedDialer" */;
+			buildPhases = (
+				60818FC31AC5A55C00728C90 /* Sources */,
+				60818FC41AC5A55C00728C90 /* Frameworks */,
+				60818FC51AC5A55C00728C90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeedDialer;
+			productName = SpeedDialer;
+			productReference = 60818FC71AC5A55C00728C90 /* SpeedDialer.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60818F961AC5A4E400728C90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Kireto;
+				TargetAttributes = {
+					60818F9D1AC5A4E400728C90 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					60818FB21AC5A4E400728C90 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 60818F9D1AC5A4E400728C90;
+					};
+					60818FC61AC5A55C00728C90 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 60818F991AC5A4E400728C90 /* Build configuration list for PBXProject "SpeedDial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60818F951AC5A4E400728C90;
+			productRefGroup = 60818F9F1AC5A4E400728C90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60818F9D1AC5A4E400728C90 /* SpeedDial */,
+				60818FB21AC5A4E400728C90 /* SpeedDialTests */,
+				60818FC61AC5A55C00728C90 /* SpeedDialer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60818F9C1AC5A4E400728C90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				603D00F41ACAC4230024234E /* Icon.png in Resources */,
+				603D011C1ACAD6780024234E /* numBgHighlighted.png in Resources */,
+				603D011D1ACAD6780024234E /* numBgHighlighted@2x.png in Resources */,
+				603D01201ACAD6780024234E /* phoneIcon@2x.png in Resources */,
+				603D011F1ACAD6780024234E /* phoneIcon.png in Resources */,
+				603D01351ACADB220024234E /* deleteIcon@2x.png in Resources */,
+				603D01221ACAD6780024234E /* smsIcon.png in Resources */,
+				60818FA91AC5A4E400728C90 /* Main.storyboard in Resources */,
+				603D00F61ACAC4230024234E /* Icon@3x.png in Resources */,
+				603D00F71ACAC4230024234E /* iTunesArtwork.png in Resources */,
+				603D01361ACADB220024234E /* deleteIcon@3x.png in Resources */,
+				603D00EF1ACAC4230024234E /* Icon-60@2x.png in Resources */,
+				603D011A1ACAD6780024234E /* numBg@2x.png in Resources */,
+				603D00FB1ACAC4230024234E /* ExtIcon@3x.png in Resources */,
+				603D00F01ACAC4230024234E /* Icon-60@3x.png in Resources */,
+				603D00ED1ACAC4230024234E /* Icon-40@2x.png in Resources */,
+				603D01191ACAD6780024234E /* numBg.png in Resources */,
+				603D01211ACAD6780024234E /* phoneIcon@3x.png in Resources */,
+				603D00EC1ACAC4230024234E /* Icon-40.png in Resources */,
+				603D01241ACAD6780024234E /* smsIcon@3x.png in Resources */,
+				603D00F11ACAC4230024234E /* Icon-Small.png in Resources */,
+				603D00F31ACAC4230024234E /* Icon-Small@3x.png in Resources */,
+				603D00F81ACAC4230024234E /* iTunesArtwork@2x.png in Resources */,
+				60818FAE1AC5A4E400728C90 /* LaunchScreen.xib in Resources */,
+				603D011B1ACAD6780024234E /* numBg@3x.png in Resources */,
+				603D011E1ACAD6780024234E /* numBgHighlighted@3x.png in Resources */,
+				603D01231ACAD6780024234E /* smsIcon@2x.png in Resources */,
+				603D00F91ACAC4230024234E /* ExtIcon.png in Resources */,
+				603D01341ACADB220024234E /* deleteIcon.png in Resources */,
+				60818FAB1AC5A4E400728C90 /* Images.xcassets in Resources */,
+				603D00F51ACAC4230024234E /* Icon@2x.png in Resources */,
+				603D00F21ACAC4230024234E /* Icon-Small@2x.png in Resources */,
+				603D00FA1ACAC4230024234E /* ExtIcon@2x.png in Resources */,
+				603D00EE1ACAC4230024234E /* Icon-40@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60818FB11AC5A4E400728C90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60818FC51AC5A55C00728C90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				603D01041ACAC5F90024234E /* Icon-Small.png in Resources */,
+				603D00FC1ACAC5F40024234E /* ExtIcon.png in Resources */,
+				60818FD11AC5A55C00728C90 /* MainInterface.storyboard in Resources */,
+				603D012F1ACAD6800024234E /* smsIcon@2x.png in Resources */,
+				603D01051ACAC5F90024234E /* Icon-Small@2x.png in Resources */,
+				603D01021ACAC5F90024234E /* Icon-60@2x.png in Resources */,
+				603D01281ACAD6800024234E /* numBgHighlighted.png in Resources */,
+				603D010A1ACAC5F90024234E /* iTunesArtwork.png in Resources */,
+				603D012C1ACAD6800024234E /* phoneIcon@2x.png in Resources */,
+				603D01011ACAC5F90024234E /* Icon-40@3x.png in Resources */,
+				603D00FD1ACAC5F40024234E /* ExtIcon@2x.png in Resources */,
+				603D01031ACAC5F90024234E /* Icon-60@3x.png in Resources */,
+				603D012B1ACAD6800024234E /* phoneIcon.png in Resources */,
+				603D01081ACAC5F90024234E /* Icon@2x.png in Resources */,
+				603D01091ACAC5F90024234E /* Icon@3x.png in Resources */,
+				603D01371ACADBAD0024234E /* deleteIcon.png in Resources */,
+				603D012A1ACAD6800024234E /* numBgHighlighted@3x.png in Resources */,
+				603D012D1ACAD6800024234E /* phoneIcon@3x.png in Resources */,
+				603D01071ACAC5F90024234E /* Icon.png in Resources */,
+				603D012E1ACAD6800024234E /* smsIcon.png in Resources */,
+				603D00FE1ACAC5F40024234E /* ExtIcon@3x.png in Resources */,
+				603D01061ACAC5F90024234E /* Icon-Small@3x.png in Resources */,
+				603D01381ACADBAD0024234E /* deleteIcon@2x.png in Resources */,
+				603D01291ACAD6800024234E /* numBgHighlighted@2x.png in Resources */,
+				603D01271ACAD6800024234E /* numBg@3x.png in Resources */,
+				603D01261ACAD6800024234E /* numBg@2x.png in Resources */,
+				603D01001ACAC5F90024234E /* Icon-40@2x.png in Resources */,
+				603D00FF1ACAC5F90024234E /* Icon-40.png in Resources */,
+				603D01251ACAD6800024234E /* numBg.png in Resources */,
+				603D01301ACAD6800024234E /* smsIcon@3x.png in Resources */,
+				603D010B1ACAC5F90024234E /* iTunesArtwork@2x.png in Resources */,
+				603D01391ACADBAD0024234E /* deleteIcon@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60818F9A1AC5A4E400728C90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60818FA61AC5A4E400728C90 /* ViewController.swift in Sources */,
+				60818FA41AC5A4E400728C90 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60818FAF1AC5A4E400728C90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60818FBA1AC5A4E400728C90 /* SpeedDialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60818FC31AC5A55C00728C90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60818FCF1AC5A55C00728C90 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60818FB51AC5A4E400728C90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60818F9D1AC5A4E400728C90 /* SpeedDial */;
+			targetProxy = 60818FB41AC5A4E400728C90 /* PBXContainerItemProxy */;
+		};
+		60818FD31AC5A55C00728C90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60818FC61AC5A55C00728C90 /* SpeedDialer */;
+			targetProxy = 60818FD21AC5A55C00728C90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60818FA71AC5A4E400728C90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60818FA81AC5A4E400728C90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60818FAC1AC5A4E400728C90 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60818FAD1AC5A4E400728C90 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60818FBB1AC5A4E500728C90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60818FBC1AC5A4E500728C90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60818FBE1AC5A4E500728C90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = SpeedDial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		60818FBF1AC5A4E500728C90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = SpeedDial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		60818FC11AC5A4E500728C90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpeedDialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedDial.app/SpeedDial";
+			};
+			name = Debug;
+		};
+		60818FC21AC5A4E500728C90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpeedDialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedDial.app/SpeedDial";
+			};
+			name = Release;
+		};
+		60818FD61AC5A55C00728C90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpeedDialer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		60818FD71AC5A55C00728C90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpeedDialer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60818F991AC5A4E400728C90 /* Build configuration list for PBXProject "SpeedDial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60818FBB1AC5A4E500728C90 /* Debug */,
+				60818FBC1AC5A4E500728C90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60818FBD1AC5A4E500728C90 /* Build configuration list for PBXNativeTarget "SpeedDial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60818FBE1AC5A4E500728C90 /* Debug */,
+				60818FBF1AC5A4E500728C90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60818FC01AC5A4E500728C90 /* Build configuration list for PBXNativeTarget "SpeedDialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60818FC11AC5A4E500728C90 /* Debug */,
+				60818FC21AC5A4E500728C90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60818FD51AC5A55C00728C90 /* Build configuration list for PBXNativeTarget "SpeedDialer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60818FD61AC5A55C00728C90 /* Debug */,
+				60818FD71AC5A55C00728C90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60818F961AC5A4E400728C90 /* Project object */;
+}
